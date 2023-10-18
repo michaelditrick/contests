@@ -1,15 +1,10 @@
-"""sumary_line
+"""
 Input
 The input consists of several test cases. Each test case consists of two lines, first a non-empty pattern, then a non-empty text. Input is terminated by end-of-file. The input file will not be larger than 5 Mb.
 
 Output
 For each test case, output one line containing the positions of all the occurences of pattern in text, from first to last, separated by a single space.
 """
-
-
-
-
-
 import sys
 
 def compute_lps_array(pattern):
